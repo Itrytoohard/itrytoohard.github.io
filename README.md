@@ -7,9 +7,9 @@ This is the first text I have personally entered
 
 [Old index.html homepage](index.html)
 
-[Blog Page](blog/blog.html)
+[HTML Blog Page](blog/blog.html)
 
-[emacs article](blogs/on-emacs)
+[HTML emacs article](blogs/on-emacs)
 
 
 Syntax Examples: [link](PagesSyntax.md)
