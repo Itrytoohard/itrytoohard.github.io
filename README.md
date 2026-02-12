@@ -1,4 +1,4 @@
-# itrytoohard.github.io
+# Matt Ruben's Website
 My GitHub Pages Website
 
 This is the first text I have personally entered
@@ -15,7 +15,7 @@ This is the first text I have personally entered
 
 [HTML Blog Page](blog/blog.html)
 
-[HTML emacs article](blogs/on-emacs)
+[HTML emacs article](blogs/On-Emacs.md)
 
 
 Syntax Examples: [link](PagesSyntax.md)
