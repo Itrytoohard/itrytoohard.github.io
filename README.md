@@ -9,6 +9,8 @@ This is the first text I have personally entered
 
 [NavBar](NavBar.md)
 
+[Theme Examples](themes/home.md)
+
 ### Old Pages:
 
 [Old index.html homepage](index.html)
