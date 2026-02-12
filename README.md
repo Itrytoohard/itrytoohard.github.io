@@ -3,6 +3,10 @@ My GitHub Pages Website
 
 This is the first text I have personally entered
 
+iT's DyNaMiC
+
+[Website's To-Do List](todo.md)
+
 ### Pages:
 
 [Blog](blog/Blog.md)
