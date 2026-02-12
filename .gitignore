@@ -1,2 +1,11 @@
 _site*
 *.html
+.DS_Store
+
+# Any files emacs is editing ( .#filename )
+.\#*
+
+# Allow these HTML Files
+!old-index.html
+!blog/blog.html
+!blog.on-emacs.html
