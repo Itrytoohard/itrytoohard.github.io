@@ -8,6 +8,7 @@
       * [ ] Install/enable markdown, GFMD, Kramdown in pandoc
       * [x] Get pandoc hooked into emacs
   * [x] Add website link to README
+  * [ ] Look into modifying theme to fix checkbox rendering
 
 ## Pages to make:
 
