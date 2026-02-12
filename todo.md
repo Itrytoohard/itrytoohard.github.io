@@ -3,10 +3,11 @@
 ## Things to do:
 
   * [ ] Get markdown live preview working in emacs
-      * [ ] Update Macports
-      * [ ] Install pandoc
+      * [x] Update Macports
+      * [x] Install pandoc
       * [ ] Install/enable markdown, GFMD, Kramdown in pandoc
-      * [ ] Get pandoc hooked into emacs
+      * [x] Get pandoc hooked into emacs
+  * [x] Add website link to README
 
 ## Pages to make:
 
