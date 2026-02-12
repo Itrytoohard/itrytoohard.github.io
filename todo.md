@@ -14,7 +14,8 @@
   * [ ] Syntax examples for Markdown
   * [ ] Syntax examples for Github Flavored Markdown
   * [ ] Syntax examples for Kramdown
-
+  * [ ] AI-Jail (in top bar) (maybe)
+  * [ ] HTML-Only (in top bar)
 
 ### Todo export:
 * Look into cron jobs for stuff like running macports update that has to compile/install but i'll never do unless I'm doing something using macports already.
