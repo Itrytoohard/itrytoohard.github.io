@@ -7,6 +7,8 @@ iT's DyNaMiC
 
 [Website's To-Do List](todo.md)
 
+[See how a theme displays all GitHub Markdown elements](ThemeEvaluation.md)
+
 * Bullet Point
 
 # H1
