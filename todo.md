@@ -14,6 +14,7 @@
 
   * [x] Todo List
   * [ ] Syntax examples for Markdown
+  * [ ] GitUp Notes
   * [ ] Syntax examples for Github Flavored Markdown
   * [ ] Syntax examples for Kramdown
   * [ ] AI-Jail (in top bar) (maybe)
