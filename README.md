@@ -11,6 +11,8 @@ iT's DyNaMiC
 
 [See how a theme displays all GitHub Markdown elements](ThemeEvaluation.md)
 
+[Git Notes](GitNotesPage.md)
+
 * Bullet Point
 
 # H1
