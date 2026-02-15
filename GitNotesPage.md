@@ -1,6 +1,12 @@
 # Git Notes
 ####### 2/15/2026
 
+## Helpful tools:
+
+* Google's AI. The days of going to git-scm, getting lost in the jargon, then searching 15 StackOverflow pages for the question that's phrased such that the answer will be the one you're looking for is over!
+
+[https://learngitbranching.js.org/](LearnGitBranching.js.org) has an interactive game-like tutorial (that thankfully doesn't lean *too* hard into the gaming motif.
+
 ## Commands to display state
 
 ### state of git repo
@@ -69,7 +75,16 @@ A head is not a property of a branch itself.
 
 HEAD is the pointer that by default points to the current branch's head.
 
-### Google Searches:
+## Merging
+
+### From a branch with work on it to your main branch:
+
+
+
+### Other
+
+
+## Google Searches:
 
 #### does a git commit make a new parent or child node in a DAG?
 A git commit creates a **new child node** in the directed acyclic graph (DAG). This new commit points back to the previous commit (or commits, in the case of a merge) as its **parent(s)**. Here is how it works within the DAG structure:
@@ -186,3 +201,8 @@ A Git commit stores a snapshot of the entire project at a specific point in time
     * Content-Addressable Storage: Files are stored as "blob" objects, identified by a unique SHA-1 hash of their content. If a file has not changed from one commit to the next, the new commit's snapshot simply reuses the pointer to the existing blob object, rather than storing a duplicate copy.
     * Packfiles and Deltas: Periodically, or during garbage collection (git gc), Git compresses older, "loose" objects into highly efficient "packfiles". Within a packfile, Git identifies similar versions of files and stores them as deltas (differences) against one another. This is a compression optimization, not the primary data model.
 In essence, you can think of commits as full, independent snapshots that are stored efficiently on the disk by sharing data where possible. Git commands like git diff dynamically calculate the differences between two snapshots when you run them.
+
+
+# Emacs Markdown Notes
+
+`, h <1-6>` : Insert Header of level 1-6
