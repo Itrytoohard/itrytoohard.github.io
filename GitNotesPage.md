@@ -1,6 +1,15 @@
 # Git Notes
 ####### 2/15/2026
 
+## Commands to display state
+
+### state of git repo
+
+* `git branch` : list all branches in local repo
+
+
+### state of project
+
 ## Relations Between Commits
 
 `O <-- O`
@@ -46,6 +55,7 @@ git commit
 git commit
 git commit
 git branch shouldHaveBranchedEarlier (creates a branch at the current head, but doesnt switch to it)
+git checkout shouldHaveBranchedEarlier (cannot force following command if still on the same branch)
 git branch -f main HEAD~3 (moves the main branch pointer 3 commits back. The shouldHaveBranchedEarlier branch pointer remains at the farthest commit)
 git checkout shouldHaveBranchedEarlier (go back to the version of the project you'd been working on)
 ```
