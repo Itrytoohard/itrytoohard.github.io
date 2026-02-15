@@ -45,8 +45,9 @@ Often, you will make some changes, commit, repeat a few times, then realize that
 git commit
 git commit
 git commit
-git branch shouldHaveBeenEarlier (creates a branch but doesnt switch to it)
-git branch -f main HEAD~3 (moves the main 
+git branch shouldHaveBranchedEarlier (creates a branch at the current head, but doesnt switch to it)
+git branch -f main HEAD~3 (moves the main branch pointer 3 commits back. The shouldHaveBranchedEarlier branch pointer remains at the farthest commit)
+git checkout shouldHaveBranchedEarlier (go back to the version of the project you'd been working on)
 ```
 ## heads vs HEAD : 
 
