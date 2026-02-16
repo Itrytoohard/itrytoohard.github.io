@@ -5,7 +5,7 @@
 
 * Google's AI. The days of going to git-scm, getting lost in the jargon, then searching 15 StackOverflow pages for the question that's phrased such that the answer will be the one you're looking for are over!
 
-* [https://learngitbranching.js.org/](LearnGitBranching.js.org) has an interactive game-like tutorial (that thankfully doesn't lean *too* hard into the gaming motif.
+* [LearnGitBranching.js.org](https://learngitbranching.js.org/)  has an interactive game-like tutorial (that thankfully doesn't lean *too* hard into the gaming motif.
 
 ## Commands to display state
 
