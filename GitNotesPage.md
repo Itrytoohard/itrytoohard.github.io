@@ -79,8 +79,7 @@ HEAD is the pointer that by default points to the current branch's head.
 
 ### From a branch with work on it to your main branch:
 
-<<<<<<< Updated upstream
-=======
+
 In this example, we'll be merging the branch `create-git-notes-page` into `main`.
 
 We assume our current branch is create-git-notes-page since that's where we've been commiting. If it isn't, do `git branch create-git-notes-page` first.
@@ -94,7 +93,6 @@ git branch main
 git pull origin main
 git merge create-git-notes-page
 ```
->>>>>>> Stashed changes
 
 
 ### Other
@@ -222,8 +220,5 @@ In essence, you can think of commits as full, independent snapshots that are sto
 # Emacs Markdown Notes
 
 `, h <1-6>` : Insert Header of level 1-6
-<<<<<<< Updated upstream
-=======
 
 M-RET M-RET to make a new entry in the list. 
->>>>>>> Stashed changes
