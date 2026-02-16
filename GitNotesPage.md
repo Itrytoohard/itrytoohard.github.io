@@ -94,6 +94,49 @@ git pull origin main
 git merge create-git-notes-page
 ```
 
+# From stashed fiasco [resdistribute to proper spot later]
+## Merging
+
+### From a branch with work on it to your main branch:
+
+In this example, we'll be merging the branch `create-git-notes-page` into `main`.
+
+We assume our current branch is create-git-notes-page since that's where we've been commiting. If it isn't, do `git branch create-git-notes-page` first.
+
+1. Commit any changes.
+2. Move to the main branch (that we want to be the 'remaining' branch with `git branch main`
+3. If you are working with others, ensure your main branch is up to date with the remote with `git pull origin main`. This step can be skipped if you are working locally, as your local repo can be assumed to be "ahead of" your remote.
+4. Merge your changes with `git merge create-git-notes-page`
+
+```
+git branch main
+git pull origin main
+git merge create-git-notes-page
+```
+
+If you have changes that have been saved but not committed, they will be:
+
+if you made them *after* checking out to main branch:
+`git stash push -m "descriptive message"`
+
+git stash list
+git stash apply (keeps in stash) (defaults to most recent if you don't specify which stashed item)
+git stash apply <stash-name>
+git stash pop (doesn't keep in stash)
+
+The output will show a list with identifiers, like:
+```
+stash@{0}: WIP on main: 1234567 Add new feature
+stash@{1}: WIP on main: abcdefg Update header
+```
+
+To apply a specific stash (e.g., stash@{1}):
+bash
+`git stash apply stash@{1}`
+
+View Details: To inspect the contents of a stash before applying it, use the git stash show command (add -p to see the full diff):
+bash
+`git stash show -p stash@{0}`
 
 ### Other
 
