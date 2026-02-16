@@ -1,3 +1,6 @@
+---
+description: Notes on Git. From model, to interface, to eccentricities.
+---
 # Git Notes
 ###### 2/15/2026
 
