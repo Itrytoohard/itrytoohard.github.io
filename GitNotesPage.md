@@ -284,4 +284,4 @@ In essence, you can think of commits as full, independent snapshots that are sto
 
 `, h <1-6>` : Insert Header of level 1-6
 
-M-RET M-RET to make a new entry in the list. 
+`M-RET M-RET` to make a new entry in the list.
