@@ -79,6 +79,22 @@ HEAD is the pointer that by default points to the current branch's head.
 
 ### From a branch with work on it to your main branch:
 
+<<<<<<< Updated upstream
+=======
+In this example, we'll be merging the branch `create-git-notes-page` into `main`.
+
+We assume our current branch is create-git-notes-page since that's where we've been commiting. If it isn't, do `git branch create-git-notes-page` first.
+
+1. Commit any changes.
+2. Move to the main branch (that we want to be the 'remaining' branch with `git branch main`
+3. If you are working with others, ensure your main branch is up to date with the remote with `git pull origin main`. This step can be skipped if you are working locally, as your local repo can be assumed to be "ahead of" your remote.
+4. Merge your changes with `git merge create-git-notes-page`
+```
+git branch main
+git pull origin main
+git merge create-git-notes-page
+```
+>>>>>>> Stashed changes
 
 
 ### Other
@@ -206,3 +222,8 @@ In essence, you can think of commits as full, independent snapshots that are sto
 # Emacs Markdown Notes
 
 `, h <1-6>` : Insert Header of level 1-6
+<<<<<<< Updated upstream
+=======
+
+M-RET M-RET to make a new entry in the list. 
+>>>>>>> Stashed changes
