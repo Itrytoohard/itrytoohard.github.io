@@ -9,3 +9,5 @@ _site*
 !old-index.html
 !blog/blog.html
 !blog.on-emacs.html
+
+!_layouts/default.html
