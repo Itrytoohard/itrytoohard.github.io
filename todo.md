@@ -9,6 +9,11 @@
       * [x] Get pandoc hooked into emacs
   * [x] Add website link to README
   * [ ] Look into modifying theme to fix checkbox rendering
+  * [x] Make Git Notes Page
+  * [ ] remove H7 from front page.
+  * [ ] fix stupid trailing space red bars in emacts >_>
+    * [ ] Make that urgent
+
 
 ## Pages to make:
 
