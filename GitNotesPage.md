@@ -223,6 +223,24 @@ A Git commit stores a **snapshot of the entire project** at a specific point i
 In essence, you can think of commits as full, independent snapshots that are stored efficiently on the disk by sharing data where possible. Git commands like git diff dynamically calculate the differences between two snapshots when you run them.
 
 
+#### git if a feature branch was created, committed to, and merged with the main branch locally, will it show up in the github repo when the main branch is pushed
+Yes, when you push your locally updated main branch to the GitHub repo, the **commits from the feature branch will be included** in the remote main branch's history, but the _feature branch itself_ will not be created on GitHub unless you explicitly push it. Here is a breakdown of what happens:
+
+*   **Commits are transferred:** Git transfers all necessary commit objects that are reachable from the new tip of your local main branch to the remote repository. This includes all the commits that were originally on your feature branch.
+    
+*   **The main branch pointer is updated:** The git push command updates the main branch pointer on the GitHub repository to match the one on your local machine.
+    
+*   **The feature branch name is not transferred (by default):** Branch names are just pointers in Git. Unless you explicitly push the feature branch itself (e.g., git push origin my-feature-branch), the remote repository will not have a branch with that specific name.
+    
+*   **History visualization:** On GitHub, the commits will appear as part of the main branch's commit history. Depending on the merge strategy used (fast-forward or a merge commit), the history might look different:
+    
+    *   **If a merge commit was created (default behavior when history diverges or using --no-ff):** You will see a "merge bubble" or a merge commit message (e.g., "Merge branch 'my\_feature' into main") in the commit graph, which clearly indicates where the feature branch was merged.
+        
+    *   **If it was a fast-forward merge:** The commits will appear as a linear history on the main branch, and there won't be any specific indication that they were part of a feature branch in the network graph. 
+        
+
+You can read more about branching and merging in the official [Git documentation](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging) or use interactive tools like learngitbranching.js.org to visualize these concepts.
+
 ### _old_google_text_
 #### Does a git hash hash the whole project or just the changes?
 
