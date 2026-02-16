@@ -10,9 +10,10 @@
   * [x] Add website link to README
   * [ ] Look into modifying theme to fix checkbox rendering
   * [x] Make Git Notes Page
-  * [ ] remove H7 from front page.
-  * [ ] fix stupid trailing space red bars in emacts >_>
-    * [ ] Make that urgent
+  * [ ] remove H7 from front page. (and make README.md not open somewhere else)
+  * [x] fix stupid trailing space red bars in emacts >_>
+    * [x] Make that urgent
+  * [ ] Make website header redirect to home page
 
 
 ## Pages to make:
