@@ -1,11 +1,11 @@
 # Git Notes
-####### 2/15/2026
+###### 2/15/2026
 
 ## Helpful tools:
 
-* Google's AI. The days of going to git-scm, getting lost in the jargon, then searching 15 StackOverflow pages for the question that's phrased such that the answer will be the one you're looking for is over!
+* Google's AI. The days of going to git-scm, getting lost in the jargon, then searching 15 StackOverflow pages for the question that's phrased such that the answer will be the one you're looking for are over!
 
-[https://learngitbranching.js.org/](LearnGitBranching.js.org) has an interactive game-like tutorial (that thankfully doesn't lean *too* hard into the gaming motif.
+* [https://learngitbranching.js.org/](LearnGitBranching.js.org) has an interactive game-like tutorial (that thankfully doesn't lean *too* hard into the gaming motif.
 
 ## Commands to display state
 
@@ -25,11 +25,11 @@ When a new commit is created, it is a new child node
 
 #### Why not the other way around?
 
-Because the old commit contains no new information. And the Acyclic nature means that only one of the node can know about the other.
+Because the old commit contains no new information. And the Acyclic nature of DAGs means that only one of the node can know about the other.
 
 ## Hidden Behavior:
 
-What git does without explicitly saying so
+What git does without explicitly saying so.
 
 #### `git commit`:
 
@@ -56,6 +56,8 @@ While tempting (and outwardly logial) to think of a branch as a chain of commits
 Often, you will make some changes, commit, repeat a few times, then realize that what you're doing should have been on a branch the whole time. But its kind of a pain to do so at this point right? Wrong! If you could simply pull back main by `x` commits, as long as you could name the new branch, you'd be golden. But if 
 
 >From main
+
+
 ```
 git commit
 git commit
@@ -65,7 +67,7 @@ git checkout shouldHaveBranchedEarlier (cannot force following command if still 
 git branch -f main HEAD~3 (moves the main branch pointer 3 commits back. The shouldHaveBranchedEarlier branch pointer remains at the farthest commit)
 git checkout shouldHaveBranchedEarlier (go back to the version of the project you'd been working on)
 ```
-## heads vs HEAD : 
+## heads vs HEAD [Major WIP]: 
 
 A head is a pointer to a commit. By default, it moves with 
 
