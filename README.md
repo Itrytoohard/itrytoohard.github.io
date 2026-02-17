@@ -43,4 +43,7 @@ iT's DyNaMiC
 
 
 Syntax Examples: [link](PagesSyntax.md)
+
+
+<center>This text is centered.</center>
 © Matthew Ruben 2026
