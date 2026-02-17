@@ -49,4 +49,6 @@ Syntax Examples: [link](PagesSyntax.md)
 © Matthew Ruben 2026
 </center>
 
+<center>
 ###### Rights to Leap Day theme belong to that [project](https://github.com/pages-themes/leap-day).
+</center>
