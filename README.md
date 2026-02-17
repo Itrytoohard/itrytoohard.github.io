@@ -43,3 +43,4 @@ iT's DyNaMiC
 
 
 Syntax Examples: [link](PagesSyntax.md)
+© Matthew Ruben 2026
