@@ -6,6 +6,11 @@
 * [ ] Figure out capture template details
 * [ ] Make each item prompt for the Key sequence, whether its a tree or not, and
 * [ ] Make mode-specific one
+* [ ] What does which-key read from a function to get the mouseover text? Put that somewhere in the capture thingy.
+* [ ] Try the capture template again, but think about how it will function instead of just relying on the AI for it. Maybe that will make the AI usable.
+    * [ ] Also try to use a new branch ahead of time this time.
+    * [ ] And look at an Org file to see how it really looks without the fancy formatting, since thats whats going to be written.
+
 * [ ] Those blasted trailing space Red boxes are back. Is emacs so determined to hate me T_T
 
 ?Is the binding mode-specific? (y/n/u)
