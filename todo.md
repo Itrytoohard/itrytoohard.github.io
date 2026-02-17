@@ -1,5 +1,31 @@
 # Todo list for website:
 
+## Non-Website things to do list
+* [ ] org capture templates
+* [ ] change org directory to /.emacs.d/org with below code
+* [ ] Figure out capture template details
+* [ ] Make each item prompt for the Key sequence, whether its a tree or not, and 
+* [ ] Make mode-specific one
+
+?Is the binding mode-specific? (y/n/u)
+
+* All modes
+* Unknown
+* X Mode
+* Y Mode
+
+```elisp
+(with-eval-after-load 'org
+  (setq org-directory "~/path/to/your/org/files/"))
+```
+and to make agenda work too:
+```elisp
+(setq org-agenda-files '("~/path/to/your/org/files/"))
+;; Or include subdirectories
+(setq org-agenda-files '("~/path/to/your/org/files/" "~/path/to/your/org/files/subdir/"))
+
+```
+
 ## Things to do:
 
   * [ ] Get markdown live preview working in emacs
