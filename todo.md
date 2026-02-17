@@ -13,7 +13,8 @@
   * [ ] remove H7 from front page. (and make README.md not open somewhere else)
   * [x] fix stupid trailing space red bars in emacts >_>
     * [x] Make that urgent
-  * [ ] Make website header redirect to home page
+  * [x] Make website header redirect to home page
+  * [ ] Make the Sidebar scroll
 
 
 ## Pages to make:
