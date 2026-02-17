@@ -4,11 +4,12 @@
 * [ ] org capture templates
 * [ ] change org directory to /.emacs.d/org with below code
 * [ ] Figure out capture template details
-* [ ] Make each item prompt for the Key sequence, whether its a tree or not, and 
+* [ ] Make each item prompt for the Key sequence, whether its a tree or not, and
 * [ ] Make mode-specific one
+* [ ] Those blasted trailing space Red boxes are back. Is emacs so determined to hate me T_T
 
 ?Is the binding mode-specific? (y/n/u)
-
+ 
 * All modes
 * Unknown
 * X Mode
