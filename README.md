@@ -52,3 +52,4 @@ Syntax Examples: [link](PagesSyntax.md)
 <center>
 ###### Rights to Leap Day theme belong to that [project](https://github.com/pages-themes/leap-day).
 </center>
+<div style="text-align: center;">###### Rights to Leap Day theme belong to that [project](https://github.com/pages-themes/leap-day).</div>
