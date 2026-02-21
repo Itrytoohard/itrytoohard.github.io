@@ -10,6 +10,9 @@
 * [ ] Try the capture template again, but think about how it will function instead of just relying on the AI for it. Maybe that will make the AI usable.
     * [ ] Also try to use a new branch ahead of time this time.
     * [ ] And look at an Org file to see how it really looks without the fancy formatting, since thats whats going to be written.
+* [ ] Figure out the deal with autocomplete with tab
+* [ ] Get rid of trailing red markers
+* [ ] tab-switch keybinding that isn't `C-x t`
 
 * [ ] Those blasted trailing space Red boxes are back. Is emacs so determined to hate me T_T
 
